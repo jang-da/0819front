@@ -3,71 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - Designer</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <title>John Doe - Welcome</title>
+    <link rel="stylesheet" href="css/landing.css">
+</head><body>
     <main>
-        <section id="intro">
-            <h1>John Doe</h1>
-            <p>A Minimalist Designer</p>
-        </section>
-
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="z-pattern">
-                <div class="z-item">
-                    <img src="https://via.placeholder.com/300" alt="John Doe">
-                    <p>I am a passionate designer with a love for clean and minimalist aesthetics. My work is driven by the desire to create meaningful and beautiful experiences.</p>
-                </div>
-                <div class="z-item">
-                    <p>With a background in graphic design and web development, I bring a unique blend of creativity and technical skills to every project.</p>
-                    <img src="https://via.placeholder.com/300" alt="Workspace">
-                </div>
+        <div class="bento-grid">
+            <div class="bento-item welcome-box">
+                <h1>John Doe</h1>
+                <p>A Minimalist Designer</p>
             </div>
-        </section>
-
-        <section id="works">
-            <h2>My Work</h2>
-            <div class="work-grid">
-                <div class="work-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
-                    <h3>Project One</h3>
-                </div>
-                <div class="work-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
-                    <h3>Project Two</h3>
-                </div>
-                <div class="work-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
-                    <h3>Project Three</h3>
-                </div>
-                <div class="work-item">
-                    <img src="https://via.placeholder.com/300x200" alt="Project 4">
-                    <h3>Project Four</h3>
-                </div>
+            <a href="portfolio.html" class="bento-item portfolio-link">
+                <h2>View My Work</h2>
+                <p>Explore my portfolio and see my latest projects.</p>
+            </a>
+            <div class="bento-item skills-box">
+                <h2>Skills</h2>
+                <ul>
+                    <li>UI/UX Design</li>
+                    <li>Prototyping</li>
+                    <li>HTML & CSS</li>
+                </ul>
             </div>
-        </section>
-
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>Email me at <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
-        </section>
+        </div>
     </main>
-
-    <button id="scrollToTopBtn" title="Go to top">Top</button>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
